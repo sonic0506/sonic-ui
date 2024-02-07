@@ -1,3 +1,4 @@
-export function helloAnything(thing: string): string {
-  return `Hello ${thing}!`;
-}
+import "./tailwind.css";
+export { default as Button } from "./components/Button";
+export { Input } from "./components/Input";
+export { Label } from "./components/Label";
